@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "2025年度 神奈川県公立高校入試 数学 問3(ア)",
+    "source": "神奈川県公立高等学校入学者選抜学力検査問題（2025年）",
+    "category": "円・相似の証明・三平方の定理・線分比と面積",
+    "subject": "数学",
+    "grade": "中3"
+  },
+  "geometry": {
+    "points": {
+      "O": [0, 0],
+      "A": [-7.64, 0],
+      "B": [7.64, 0],
+      "C": [1.09, 7.56],
+      "D": [-2.73, -7.14],
+      "E": [-1.63, 0],
+      "F": [10.91, -3.78],
+      "G": [6.00, -4.72],
+      "H": [1.85, -3.25],
+      "I": [8.45, -4.25],
+      "J": [-0.85, -2.15]
+    },
+    "circles": [
+      {
+        "id": "circle_O",
+        "center": "O",
+        "radius": 7.64
+      }
+    ],
+    "lines": [
+      "AB",
+      "CD",
+      "AC",
+      "AD",
+      "AG",
+      "BD",
+      "CB",
+      "BF",
+      "DF",
+      "CF",
+      "BG"
+    ]
+  },
+  "problem": {
+    "statement": "右の図 1 のように，線分 \\( AB \\) を直径とする円 \\( O \\) の周上に，2 点 \\( A, B \\) とは異なる点 \\( C \\) を，\\( AC > BC \\) となるようにとる。\nまた，円 \\( O \\) の周上に点 \\( D \\) を，\\( \\angle CAD \\) が鈍角となるようにとり，線分 \\( AB \\) と線分 \\( CD \\) との交点を \\( E \\) とする。\nさらに，線分 \\( CB \\) の延長上に点 \\( F \\) を，\\( CF = DF \\) となるようにとり，線分 \\( DF \\) と円 \\( O \\) との交点を \\( G \\)，線分 \\( AG \\) と線分 \\( BD \\) との交点を \\( H \\) とする。\nこのとき，次の (i)，(ii) に答えなさい。",
+    "reading_steps": [
+      {
+        "step_no": 1,
+        "text": "［証明］ \\( \\triangle ACE \\) と \\( \\triangle AGD \\) において，",
+        "focus": ["tri_ACE", "tri_AGD", "A", "C", "E", "G", "D"],
+        "badges": ["相似の証明"]
+      },
+      {
+        "step_no": 2,
+        "text": "まず，\\( \\stackrel{\\frown}{AD} \\) に対する円周角は等しいから，\n\\( \\angle ACD = \\angle AGD \\)\nよって，\\( \\angle ACE = \\angle AGD \\) ……①",
+        "focus": ["arc_AD", "ang_ACD", "ang_AGD", "ang_ACE", "seg_AC", "seg_CD", "seg_AG", "seg_GD"],
+        "badges": ["円周角の定理"]
+      },
+      {
+        "step_no": 3,
+        "text": "次に，\\( \\stackrel{\\frown}{BD} \\) に対する円周角は等しいから，\n\\( [ ⒜ ] \\) ……②",
+        "focus": ["arc_BD", "ang_BAD", "ang_BCD", "seg_AB", "seg_AD", "seg_BC", "seg_CD"],
+        "badges": ["円周角の定理"]
+      },
+      {
+        "step_no": 4,
+        "text": "また，\\( CF = DF \\) より，\\( \\triangle FCD \\) は二等辺三角形であり，その 2 つの底角は等しいから，\n\\( \\angle FCD = \\angle FDC \\)\nよって，\\( \\angle BCD = \\angle CDG \\) ……③",
+        "focus": ["tri_FCD", "seg_CF", "seg_DF", "ang_FCD", "ang_FDC", "ang_BCD", "ang_CDG"],
+        "badges": ["二等辺三角形の底角"]
+      },
+      {
+        "step_no": 5,
+        "text": "さらに，\\( \\stackrel{\\frown}{CG} \\) に対する円周角は等しいから，\n\\( [ ⒝ ] \\) ……④",
+        "focus": ["arc_CG", "ang_CAG", "ang_CDG", "seg_AC", "seg_AG", "seg_CD", "seg_DG"],
+        "badges": ["円周角の定理"]
+      },
+      {
+        "step_no": 6,
+        "text": "②，③，④より，\n\\( \\angle CAB = \\angle CAG - \\angle BAG = \\angle BAD - \\angle BAG \\) ……⑤\n\\( \\angle GAD = \\angle BAD - \\angle BAG \\) ……⑥",
+        "focus": ["ang_CAB", "ang_CAG", "ang_BAG", "ang_BAD", "ang_GAD"],
+        "badges": ["角の減法"]
+      },
+      {
+        "step_no": 7,
+        "text": "⑤，⑥より，\\( \\angle CAB = \\angle GAD \\)\nよって，\\( \\angle CAE = \\angle GAD \\) ……⑦",
+        "focus": ["ang_CAB", "ang_GAD", "ang_CAE"],
+        "badges": ["角の等量関係"]
+      },
+      {
+        "step_no": 8,
+        "text": "①，⑦より，2 組の角がそれぞれ等しいから，\n\\( \\triangle ACE \\sim \\triangle AGD \\)",
+        "focus": ["tri_ACE", "tri_AGD", "ang_ACE", "ang_AGD", "ang_CAE", "ang_GAD"],
+        "badges": ["2組の角がそれぞれ等しい"]
+      }
+    ],
+    "sub_questions": [
+      {
+        "id": "q1",
+        "title": "(i) 三角形の相似の証明（穴埋め）",
+        "type": "proof_fill_in_the_blank",
+        "text": "三角形 \\( ACE \\) と三角形 \\( AGD \\) が相似であることを次のように証明した。 \\( ⒜ \\) ， \\( ⒝ \\) に最も適するものを，それぞれ選択肢の 1 ～ 4 の中から 1 つずつ選び，その番号を答えなさい。",
+        "blanks": [
+          {
+            "symbol": "⒜",
+            "answer": "4",
+            "choices": [
+              "1. \\( \\angle ABC = \\angle ADC \\)",
+              "2. \\( \\angle AED = \\angle BEC \\)",
+              "3. \\( \\angle BAC = \\angle BDC \\)",
+              "4. \\( \\angle BAD = \\angle BCD \\)"
+            ]
+          },
+          {
+            "symbol": "⒝",
+            "answer": "3",
+            "choices": [
+              "1. \\( \\angle AHD = \\angle BHG \\)",
+              "2. \\( \\angle BAG = \\angle BDG \\)",
+              "3. \\( \\angle CAG = \\angle CDG \\)",
+              "4. \\( \\angle DAG = \\angle DBG \\)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "title": "(ii) 三角形 ADH の面積の計算",
+        "type": "calculation",
+        "text": "\\( BC = 4 \\text{ cm} \\)，\\( BG = FG = 2 \\text{ cm} \\) のとき，三角形 \\( ADH \\) の面積は \\( \\frac{[あ][い]}{[う]} \\text{ cm}^2 \\) である。",
+        "answer": "\\frac{7\\sqrt{3}}{3}",
+        "blanks": [
+          { "symbol": "あ", "answer": "7" },
+          { "symbol": "い", "answer": "3" },
+          { "symbol": "う", "answer": "3" }
+        ]
+      }
+    ]
+  },
+  "solutions": {
+    "main_approach": {
+      "title": "標準解法：平行線の錯角・正三角形の特定と三平方の定理",
+      "steps": [
+        {
+          "step_no": 1,
+          "title": "平行線 BG // CD と正三角形の特定",
+          "text": "\\( BG // CD \\) を導くことで、\\( \\triangle FBG \\sim \\triangle FCD \\) より \\( FB = 2 \\text{ cm} \\) が求まり、\\( \\triangle FBG, \\triangle FCD \\) は共に正三角形であることがわかります。",
+          "focus": ["seg_BG", "seg_CD", "tri_FBG", "tri_FCD", "seg_BC", "seg_BF", "seg_FG", "seg_DG", "ang_CDB", "ang_DBG"],
+          "focus_triangles": ["FBG", "FCD"],
+          "badges": ["円周角と錯角", "平行線と相似比", "正三角形"],
+          "multi_layer": {
+            "hint": "(i)で示した \\( \\angle CAB = \\angle GAD \\) を円周角の定理で変換し、錯角が等しいことから平行線を見つけましょう。",
+            "logic": "\\( \\stackrel{\\frown}{BC} \\) の円周角より \\( \\angle CAB = \\angle CDB \\)，\\( \\stackrel{\\frown}{DG} \\) の円周角より \\( \\angle GAD = \\angle DBG \\)。したがって \\( \\angle CDB = \\angle DBG \\)（錯角が等しい）となり \\( BG // CD \\) が成立します。",
+            "calculation": {
+              "title": "線分長の特定",
+              "lines": [
+                "\\( BG // CD \\) より \\( \\triangle FBG \\sim \\triangle FCD \\)",
+                "相似比 \\( BG : CD = FG : FD = 2 : (2 + DG) \\)",
+                "\\( CF = DF \\) かつ \\( CB = 4 \\) より \\( 4 + FB = 2 + DG \\)",
+                "\\( FB = FG = 2 \\text{ cm}, \\quad DG = BC = 4 \\text{ cm}, \\quad CD = CF = DF = 6 \\text{ cm} \\)",
+                "\\( \\triangle FBG \\) は 3 辺が 2cm，\\( \\triangle FCD \\) は 3 辺が 6cm の正三角形"
+              ]
+            },
+            "supplement": "\\( \\angle FCD = \\angle FDC = \\angle CFD = 60^\\circ \\) です。"
+          }
+        },
+        {
+          "step_no": 2,
+          "title": "直角三角形 ABD の各辺の長さの算出",
+          "text": "円周角の性質から \\( \\angle ABD = 30^\\circ \\) が導かれ、垂線を利用した三平方の定理より \\( BD = 2\\sqrt{7} \\text{ cm} \\)，\\( AD = \\frac{2\\sqrt{21}}{3} \\text{ cm} \\) が求まります。",
+          "focus": ["circle_O", "seg_AB", "seg_AD", "seg_BD", "seg_BI", "I", "ang_ACD", "ang_ABD", "ang_ADB"],
+          "focus_triangles": ["ABD", "BDI", "BGI"],
+          "badges": ["直径の円周角(90°)", "三平方の定理", "30°-60°-90°直角三角形"],
+          "multi_layer": {
+            "hint": "点 B から直線 DF に垂線 BI を下ろすと、\\( 1 : 2 : \\sqrt{3} \\) の直角三角形が作れます。",
+            "logic": "直径 \\( AB \\) に対する円周角より \\( \\angle ACB = 90^\\circ \\)。\\( \\angle BCD = 60^\\circ \\) より \\( \\angle ACD = 30^\\circ \\)。同一弧 \\( AD \\) の円周角より \\( \\angle ABD = 30^\\circ \\) です。同様に \\( \\angle ADB = 90^\\circ \\) となります。",
+            "calculation": {
+              "title": "BD および AD の計算",
+              "lines": [
+                "頂点 B より FG に垂線 BI を下ろすと I は FG の中点より \\( GI = 1 \\text{ cm} \\)",
+                "\\( \\triangle BGI \\) は \\( 1 : 2 : \\sqrt{3} \\) より \\( BI = \\sqrt{3} \\text{ cm} \\)",
+                "\\( DI = DG + GI = 4 + 1 = 5 \\text{ cm} \\)",
+                "\\( \\triangle BDI \\) で三平方の定理より \\( BD = \\sqrt{5^2 + (\\sqrt{3})^2} = \\sqrt{28} = 2\\sqrt{7} \\text{ cm} \\)",
+                "\\( \\triangle ABD \\) は \\( 30^\\circ, 60^\\circ, 90^\\circ \\) の直角三角形なので、",
+                "\\( AD = \\frac{BD}{\\sqrt{3}} = \\frac{2\\sqrt{7}}{\\sqrt{3}} = \\frac{2\\sqrt{21}}{3} \\text{ cm} \\)"
+              ]
+            },
+            "supplement": "\\( \\triangle BCD \\) で余弦定理 \\( BD^2 = 4^2 + 6^2 - 2 \\cdot 4 \\cdot 6 \\cos 60^\\circ = 28 \\) を用いても瞬時に求まります。"
+          }
+        },
+        {
+          "step_no": 3,
+          "title": "三角形 ABD 全体の面積計算",
+          "text": "直角を挟む 2 辺 \\( AD, BD \\) から \\( \\triangle ABD \\) の面積を求めます。",
+          "focus": ["tri_ADB", "seg_AD", "seg_BD", "ang_ADB"],
+          "focus_triangles": ["ABD"],
+          "badges": ["直角三角形の面積"],
+          "multi_layer": {
+            "hint": "\\( \\angle ADB = 90^\\circ \\) なので \\( \\frac{1}{2} \\times AD \\times BD \\) で直接計算できます。",
+            "logic": "底辺と高さが互いに直交しているため、そのまま積の半分が面積となります。",
+            "calculation": {
+              "title": "面積の算出",
+              "lines": [
+                "\\( S_{\\triangle ABD} = \\frac{1}{2} \\times AD \\times BD \\)",
+                "\\( = \\frac{1}{2} \\times \\frac{2\\sqrt{21}}{3} \\times 2\\sqrt{7} \\)",
+                "\\( = \\frac{2\\sqrt{147}}{3} = \\frac{2 \\times 7\\sqrt{3}}{3} = \\frac{14\\sqrt{3}}{3} \\text{ cm}^2 \\)"
+              ]
+            },
+            "supplement": "\\( \\sqrt{147} = \\sqrt{49 \\times 3} = 7\\sqrt{3} \\) の変形を正確に行いましょう。"
+          }
+        },
+        {
+          "step_no": 4,
+          "title": "合同な三角形による中点 H の証明と面積の確定",
+          "text": "線分 CD と線分 AH の交点を J とすると \\( \\triangle JDH \\equiv \\triangle GBH \\) が示され、点 H は線分 BD の中点（\\( BH : HD = 1 : 1 \\)）となります。よって \\( \\triangle ADH \\) の面積は \\( \\triangle ABD \\) の半分です。",
+          "focus": ["tri_ADH", "H", "J", "seg_AD", "seg_DH", "seg_AH", "seg_BD"],
+          "focus_triangles": ["ADH", "JDH", "GBH"],
+          "badges": ["三角形の合同", "中点と面積比(1:1)"],
+          "multi_layer": {
+            "hint": "点 H を通る 2 つの三角形 \\( \\triangle JDH \\) と \\( \\triangle GBH \\) の合同に注目しましょう。",
+            "logic": "\\( \\angle AGD = 30^\\circ, \\angle DCB = 60^\\circ \\) より \\( \\angle DJG = 90^\\circ \\)。\\( \\triangle JDG \\) は \\( 30^\\circ, 60^\\circ, 90^\\circ \\) なので \\( DJ = \\frac{1}{2}DG = 2 \\text{ cm} = BG \\)。1組の辺とその両端の角が等しいので \\( \\triangle JDH \\equiv \\triangle GBH \\) となり、\\( DH = BH \\) です。",
+            "calculation": {
+              "title": "最終面積の計算",
+              "lines": [
+                "\\( H \\) は \\( BD \\) の中点（\\( BH : HD = 1 : 1 \\)）なので、",
+                "\\( S_{\\triangle ADH} = \\frac{1}{2} \\times S_{\\triangle ABD} \\)",
+                "\\( = \\frac{1}{2} \\times \\frac{14\\sqrt{3}}{3} = \\frac{7\\sqrt{3}}{3} \\text{ cm}^2 \\)",
+                "答え: \\( \\frac{7\\sqrt{3}}{3} \\text{ cm}^2 \\) （あ=7, い=3, う=3）"
+              ]
+            },
+            "supplement": "頂点 A を共有し底辺が同一直線上にあるため、底辺の比 \\( HD : BD = 1 : 2 \\) がそのまま面積比になります。"
+          }
+        }
+      ]
+    },
+    "alternative_approaches": [
+      {
+        "title": "別解：正弦定理・外接円半径を用いた三角比による解法（高校数学）",
+        "background": "外接円の半径 \\( R = \\frac{2\\sqrt{21}}{3} \\) と弦長から角度の三角比を求め、\\( \\triangle ABH \\) に正弦定理を適用することで中点 H を計算なしに瞬時に導けます。",
+        "steps": [
+          {
+            "step_no": 1,
+            "title": "外接円の半径 R の特定",
+            "text": "\\( \\triangle GBC \\) において余弦定理より \\( GC = 2\\sqrt{7} \\)。正弦定理 \\( 2R = \\frac{GC}{\\sin 120^\\circ} \\) より \\( R = \\frac{2\\sqrt{21}}{3} \\)（直径 \\( AB = \\frac{4\\sqrt{21}}{3} \\)）。",
+            "focus": ["circle_O", "seg_AB", "seg_BC", "seg_BG"],
+            "badges": ["正弦定理", "余弦定理"]
+          },
+          {
+            "step_no": 2,
+            "title": "正弦定理による BH の直接導出",
+            "text": "\\( \\sin \\angle BAG = \\frac{BG}{AB} = \\frac{3}{2\\sqrt{21}} \\)。\\( \\triangle ABH \\) に正弦定理を適用すると \\( BH = AB \\times \\frac{\\sin \\angle BAG}{\\sin \\angle AHB} = \\sqrt{7} \\)。\\( BD = 2\\sqrt{7} \\) の半分なので H は中点と直ちに確定します。",
+            "focus": ["seg_BD", "seg_AH", "H"],
+            "badges": ["正弦定理による線分比"]
+          }
+        ]
+      }
+    ]
+  }
+}

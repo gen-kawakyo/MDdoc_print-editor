@@ -1,0 +1,109 @@
+{
+  "year": 2025,
+  "prefecture": "Kanagawa",
+  "subject": "English",
+  "source": "question",
+  "children": [
+    {
+      "type": "container",
+      "id": "q4",
+      "children": [
+        {
+          "type": "title",
+          "content": "問 ４",
+          "style": {
+            "fontWeight": "bold"
+          }
+        },
+        {
+          "type": "text-block",
+          "content": "（　 ）内の六つの語の中から五つを選んで正しい順番に並べたとき，その（　 ）内で ３ 番目と ５ 番目にくる語の番号をそれぞれ答えなさい。（それぞれ一つずつ不要な語があるので，その語は使用しないこと。）"
+        },
+        {
+          "type": "container",
+          "id": "q4-a",
+          "children": [
+            {
+              "type": "label",
+              "content": "ア"
+            },
+            {
+              "type": "text-block",
+              "content": "A : You are really good at English. Can you tell me ( 1. to 2. I 3. must 4. need 5. do 6. what ) to make a good English presentation?"
+            },
+            {
+              "type": "text-block",
+              "content": "B : Sorry. I’m good at English, but I’m not very good at making a presentation. Let’s ask Mr. Smith about it later."
+            }
+          ],
+          "style": {
+            "marginTop": "1"
+          }
+        },
+        {
+          "type": "container",
+          "id": "q4-b",
+          "children": [
+            {
+              "type": "label",
+              "content": "イ"
+            },
+            {
+              "type": "text-block",
+              "content": "A : I’m going to go to Kamome City next week. Are there any good places you recommend?"
+            },
+            {
+              "type": "text-block",
+              "content": "B : Yes. One of ( 1. visit 2. tourists 3. time 4. places 5. should 6. the ) is Kamome Green Garden."
+            }
+          ],
+          "style": {
+            "marginTop": "1"
+          }
+        },
+        {
+          "type": "container",
+          "id": "q4-c",
+          "children": [
+            {
+              "type": "label",
+              "content": "ウ"
+            },
+            {
+              "type": "text-block",
+              "content": "A : Do you ( 1. languages 2. are 3. is 4. think 5. learning 6. foreign ) important in your life?"
+            },
+            {
+              "type": "text-block",
+              "content": "B : Yes. I want to communicate with people from other countries and understand their feelings and opinions."
+            }
+          ],
+          "style": {
+            "marginTop": "1"
+          }
+        },
+        {
+          "type": "container",
+          "id": "q4-d",
+          "children": [
+            {
+              "type": "label",
+              "content": "エ"
+            },
+            {
+              "type": "text-block",
+              "content": "A : Is there anything we can ( 1. make 2. our 3. for 4. city 5. do 6. to ) cleaner?"
+            },
+            {
+              "type": "text-block",
+              "content": "B : Sure. We can pick up garbage on the streets."
+            }
+          ],
+          "style": {
+            "marginTop": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

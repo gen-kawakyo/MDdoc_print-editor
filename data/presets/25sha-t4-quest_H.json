@@ -1,0 +1,617 @@
+{
+  "year": 2025,
+  "prefecture": "Kanagawa",
+  "subject": "Social",
+  "source": "question",
+  "children": [
+    {
+      "type": "title",
+      "content": "問 ４ h",
+      "style": {
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "type": "text-block",
+      "content": "Ｋさんは，近現代の日本における歌や音楽の歴史について調べ，次のレポートを作成した。これについて，あとの各問いに答えなさい。"
+    },
+    {
+      "type": "container",
+      "id": "q4-report",
+      "children": [
+        {
+          "type": "title",
+          "content": "**レポート**",
+          "style": {
+            "marginBottom": "0.5rem"
+          }
+        },
+        {
+          "type": "grid-box",
+          "style": {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 220px",
+            "gap": "1rem",
+            "border": "1px solid #1e293b",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "borderColor": "#1e293b",
+            "borderRadius": "0.5rem",
+            "paddingTop": "0.2",
+            "paddingBottom": "0.2",
+            "paddingLeft": "0.8",
+            "paddingRight": "0.8"
+          },
+          "children": [
+            {
+              "type": "container",
+              "children": [
+                {
+                  "type": "title",
+                  "content": "１　社会の混乱と歌",
+                  "style": {
+                    "fontSize": "0.75rem"
+                  }
+                },
+                {
+                  "type": "text-block",
+                  "content": "　資料は，幕末の人びとが「ええじゃないか」ととなえながら，歌い踊った様子を描いたものです。この騒動のほか，世直しを願う人びとによる百姓一揆や [ あ ] が各地で発生しました。"
+                },
+                {
+                  "type": "title",
+                  "content": "２　近代国家としての日本と歌",
+                  "style": {
+                    "fontSize": "0.75rem",
+                    "marginTop": "1rem"
+                  }
+                },
+                {
+                  "type": "text-block",
+                  "content": "　幕末から一連の改革が進められ，日本は近代国家となりました。自由民権運動が全国に広がるとともに，①<u>「権利幸福きらいな人に自由湯（注）をば飲ませたい」</u>の歌詞で知られる「オッペケペー節」が流行しました。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "（注）自由湯：当時使われていた薬と自由党をかけた表現。",
+                  "style": {
+                    "fontSize": "0.75rem",
+                    "marginTop": "0.3rem"
+                  }
+                },
+                {
+                  "type": "title",
+                  "content": "３　音楽の統制",
+                  "style": {
+                    "fontSize": "0.75rem",
+                    "marginTop": "1rem"
+                  }
+                },
+                {
+                  "type": "text-block",
+                  "content": "　日本では，②<u>第二次世界大戦</u>が始まると，アメリカ合衆国やイギリスの音楽を聴くことが制限されるようになりました。"
+                },
+                {
+                  "type": "title",
+                  "content": "４　歌の流行",
+                  "style": {
+                    "fontSize": "0.75rem",
+                    "marginTop": "1rem"
+                  }
+                },
+                {
+                  "type": "text-block",
+                  "content": "　③<u>第二次世界大戦後に連合国軍総司令部（GHQ）の指示による民主化が進む中</u>で，人びとは多様な音楽を聴くことができるようになりました。さらに， [ い ] の時期にテレビが普及したことで，人びとと音楽のかかわりに変化がもたらされました。"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "children": [
+                {
+                  "type": "title",
+                  "content": "資料",
+                  "style": {
+                    "fontSize": "0.75rem"
+                  }
+                },
+                {
+                  "type": "image-block",
+                  "content": "images/so-images/25so_q4_mat.png",
+                  "style": {
+                    "width": "100%",
+                    "marginTop": "0"
+                  }
+                },
+                {
+                  "type": "text-block",
+                  "content": "（和歌山市立博物館所蔵）",
+                  "style": {
+                    "fontSize": "0.7rem",
+                    "textAlign": "right",
+                    "marginTop": "-0.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "id": "q4-questions",
+      "style": {
+        "marginTop": "1.5rem"
+      },
+      "children": [
+        {
+          "type": "container",
+          "id": "q4-a",
+          "children": [
+            {
+              "type": "label",
+              "content": "(ア)"
+            },
+            {
+              "type": "text-block",
+              "content": "レポート中の [ あ ]，[ い ] にあてはまる語句の組み合わせとして最も適するものを，次の中から一つ選び，その番号を答えなさい。"
+            },
+            {
+              "type": "grid-box",
+              "style": {
+                "display": "grid",
+                "gridTemplateColumns": "repeat(2, 1fr)",
+                "gap": "0.5rem",
+                "marginTop": "0.5rem"
+              },
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "1. あ：米騒動　　　い：大戦景気"
+                },
+                {
+                  "type": "text-block",
+                  "content": "2. あ：米騒動　　　い：高度経済成長"
+                },
+                {
+                  "type": "text-block",
+                  "content": "3. あ：打ちこわし　い：大戦景気"
+                },
+                {
+                  "type": "text-block",
+                  "content": "4. あ：打ちこわし　い：高度経済成長"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q4-i",
+          "style": {
+            "marginTop": "1.5rem"
+          },
+          "children": [
+            {
+              "type": "label",
+              "content": "(イ)"
+            },
+            {
+              "type": "text-block",
+              "content": "資料について，Ｋさんは「江戸時代末期に人びとが世直しを願った背景には，どのようなことがあるのだろうか。」という学習課題を設定した。この学習課題を解決するための調査として最も適するものを，次の中から一つ選び，その番号を答えなさい。"
+            },
+            {
+              "type": "grid-box",
+              "style": {
+                "display": "grid",
+                "gridTemplateColumns": "1fr",
+                "gap": "0.5rem",
+                "marginTop": "0.5rem"
+              },
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "1. この時期の身分制度に着目し，全国水平社の活動について調査する。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "2. この時期の物価の変動に着目し，日本と欧米諸国との貿易について調査する。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "3. この時期の人びとの労働環境に着目し，社会主義的思想の影響について調査する。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "4. この時期の人びとに課せられた税や負担に着目し，地租改正の内容について調査する。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q4-u",
+          "style": {
+            "marginTop": "1.5rem"
+          },
+          "children": [
+            {
+              "type": "label",
+              "content": "(ウ)"
+            },
+            {
+              "type": "text-block",
+              "content": "――線①でたたえられた，明治時代の「権利」と「自由党」について述べた次の文 X，Y の正誤の組み合わせとして最も適するものを，あとの 1 ～ 4 の中から一つ選び，その番号を答えなさい。"
+            },
+            {
+              "type": "frame-box",
+              "style": {
+                "padding": "0.8rem",
+                "border": "1px solid #333",
+                "marginTop": "0.5rem",
+                "paddingTop": "0.2",
+                "paddingBottom": "0.2",
+                "paddingLeft": "0.8",
+                "paddingRight": "0.8"
+              },
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "X　福沢諭吉は，人間の自由や権利などの，欧米の思想を日本に紹介した。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "Y　自由党は，憲政会（のちの立憲民政党）と交互に政権を担当した。",
+                  "style": {
+                    "marginTop": "0.5rem"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "grid-box",
+              "style": {
+                "display": "grid",
+                "gridTemplateColumns": "repeat(2, 1fr)",
+                "gap": "0.5rem",
+                "marginTop": "0.5rem"
+              },
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "1. X：正　Y：正"
+                },
+                {
+                  "type": "text-block",
+                  "content": "2. X：正　Y：誤"
+                },
+                {
+                  "type": "text-block",
+                  "content": "3. X：誤　Y：正"
+                },
+                {
+                  "type": "text-block",
+                  "content": "4. X：誤　Y：誤"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q4-e",
+          "style": {
+            "marginTop": "1.5rem"
+          },
+          "children": [
+            {
+              "type": "label",
+              "content": "(エ)"
+            },
+            {
+              "type": "text-block",
+              "content": "――線②に関して，次の表は，Ｋさんが第二次世界大戦中におこったできごとを年代の古い順に並べたものである。表中の [ う ] ～ [ お ] にあてはまるできごと I ～ III の組み合わせとして最も適するものを，あとの 1 ～ 6 の中から一つ選び，その番号を答えなさい。"
+            },
+            {
+              "type": "container",
+              "style": {
+                "padding": "0.8rem",
+                "marginTop": "0.5rem"
+              },
+              "children": [
+                {
+                  "type": "title",
+                  "content": "**表**"
+                },
+                {
+                  "type": "grid-box",
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "第二次世界大戦中におこったできごと",
+                      "style": {
+                        "border": "1px solid #1e293b",
+                        "borderWidth": "1px",
+                        "borderStyle": "solid",
+                        "borderColor": "#1e293b",
+                        "marginBottom": "-0.05",
+                        "paddingBottom": "0.2",
+                        "paddingTop": "0.2"
+                      }
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "border": "1px solid #1e293b",
+                        "borderWidth": "1px",
+                        "borderStyle": "solid",
+                        "borderColor": "#1e293b",
+                        "paddingTop": "0.2",
+                        "paddingBottom": "0.2",
+                        "paddingLeft": "0.5",
+                        "paddingRight": "0.5"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "・日ソ中立条約が結ばれた。"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "・ [ う ]"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "・日本を直接爆撃できる距離にあるサイパン島が，アメリカ合衆国によって占領された。"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "・ [ え ]"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "・広島に原子爆弾が投下された。"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "・ [ お ]"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "・日本がポツダム宣言を受け入れた。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame-box",
+              "style": {
+                "padding": "0.8rem",
+                "border": "1px solid #333",
+                "marginTop": "0.5rem",
+                "paddingTop": "0.2",
+                "paddingBottom": "0.2",
+                "paddingLeft": "0.8",
+                "paddingRight": "0.8"
+              },
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "I　　ソ連が日本に宣戦布告し，満州などへ侵攻した。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "II　 東京大空襲によって，一夜で約 10 万人が犠牲となった。",
+                  "style": {
+                    "marginTop": "0.3rem"
+                  }
+                },
+                {
+                  "type": "text-block",
+                  "content": "III　日本がフランス領インドシナの南部に行軍を進めた。",
+                  "style": {
+                    "marginTop": "0.3rem"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "grid-box",
+              "style": {
+                "display": "grid",
+                "gridTemplateColumns": "repeat(2, 1fr)",
+                "gap": "0.5rem",
+                "marginTop": "0.5rem"
+              },
+              "children": [
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gap": "1",
+                    "columns": "4"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "1. う：I"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "え：II"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "お：III"
+                    }
+                  ]
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "columns": "4",
+                    "gap": "1"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "2. う：I"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "え：III"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "お：II"
+                    }
+                  ]
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gap": "1",
+                    "columns": "4"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "3. う：II"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "え：I"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "お：III"
+                    }
+                  ]
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "columns": "4",
+                    "gap": "1"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "4. う：II"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "え：III"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "お：I"
+                    }
+                  ]
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "columns": "4",
+                    "gap": "1"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "5. う：III"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "え：I"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "お：II"
+                    }
+                  ]
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "columns": "4",
+                    "gap": "1"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "6. う：III"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "え：II"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "お：I"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q4-o",
+          "style": {
+            "marginTop": "1.5rem"
+          },
+          "children": [
+            {
+              "type": "label",
+              "content": "(オ)"
+            },
+            {
+              "type": "text-block",
+              "content": "――線③の具体例について述べた文として最も適するものを，次の中から一つ選び，その番号を答えなさい。"
+            },
+            {
+              "type": "grid-box",
+              "style": {
+                "display": "grid",
+                "gridTemplateColumns": "1fr",
+                "gap": "0.5rem",
+                "marginTop": "0.5rem"
+              },
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "1. 政府は，官営の工場などを財閥に売り渡した。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "2. 衆議院議員選挙法が改正され，満 25 歳以上の男性のみに選挙権が与えられた。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "3. 政府は，地主がもつ小作地の多くを強制的に買い上げて，小作人に安く売り渡した。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "4. 満 6 歳以上の子どもが小学校に通う制度が，初めて定められた。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "writingMode": "horizontal-tb",
+  "isVertical": false,
+  "isVerticalAllowed": true
+}

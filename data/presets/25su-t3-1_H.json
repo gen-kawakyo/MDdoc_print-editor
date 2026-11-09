@@ -1,0 +1,416 @@
+{
+  "year": 2025,
+  "prefecture": "Kanagawa",
+  "subject": "Mathematics",
+  "source": "question",
+  "children": [
+    {
+      "type": "container",
+      "id": "q3-a",
+      "meta": {
+        "semantic": "question-section"
+      },
+      "children": [
+        {
+          "type": "text-block",
+          "content": "**問 ３**"
+        },
+        {
+          "type": "text-block",
+          "content": "次の問に答えなさい。"
+        },
+        {
+          "type": "label",
+          "content": "(ア)",
+          "style": {
+            "marginTop": "1"
+          }
+        },
+        {
+          "type": "grid-box",
+          "style": {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 300px",
+            "gap": "2rem"
+          },
+          "children": [
+            {
+              "type": "container",
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "右の図1のように，線分ABを直径とする円Oの周上に，2点A，Bとは異なる点Cを，AC > BCとなるようにとる。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "また，円Oの周上に点Dを，∠CADが鈍角となるようにとり，線分ABと線分CDとの交点をEとする。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "さらに，線分CBの延長上に点Fを，CF＝DFとなるようにとり，線分DFと円Oとの交点をG，線分AGと線分BDとの交点をHとする。"
+                },
+                {
+                  "type": "text-block",
+                  "content": "このとき，次の(i)，(ii)に答えなさい。"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "children": [
+                {
+                  "type": "title",
+                  "content": "図1",
+                  "style": {
+                    "textAlign": "center",
+                    "marginTop": "-2"
+                  }
+                },
+                {
+                  "type": "image-block",
+                  "content": "images/ma-images/25su_q3_fig1.png",
+                  "style": {
+                    "marginTop": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q3-a-i",
+          "style": {
+            "marginTop": "1rem"
+          },
+          "children": [
+            {
+              "type": "label",
+              "content": "(i)"
+            },
+            {
+              "type": "text-block",
+              "content": "三角形ACEと三角形AGDが相似であることを次のように証明した。 \n[__(a):50px:solid:sharp:fs0.8em:p0__] ， [__(b):50px:solid:sharp:fs0.8em:p0__] に最も適するものを，それぞれ選択肢の 1 ～ 4 の中から 1 つずつ選び，その番号を答えなさい。"
+            },
+            {
+              "type": "grid-box",
+              "style": {
+                "display": "grid",
+                "gridTemplateColumns": "2fr 1fr",
+                "marginTop": "1rem"
+              },
+              "children": [
+                {
+                  "type": "frame-box",
+                  "style": {
+                    "border": "1px solid #000",
+                    "padding": "1rem",
+                    "width": "90%"
+                  },
+                  "children": [
+                    {
+                      "type": "title",
+                      "content": "［証明］",
+                      "style": {
+                        "fontSize": "0.8",
+                        "marginBottom": "0.5rem"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "△ACE と △AGD において，"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "まず，AD に対する円周角は等しいから，"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "　　　∠ACD ＝ ∠AGD"
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "gap": "1",
+                        "columns": "3fr 1fr"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "よって，∠ACE ＝ ∠AGD"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "……①"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "次に，BD に対する円周角は等しいから，"
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "columns": "3fr 1fr",
+                        "gap": "1"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "[__(a):120px:solid:sharp:fs1em:pad2px__]"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "……②"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "また，CF ＝ DF より，△FCD は二等辺三角形であり，"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "その 2 つの底角は等しいから，"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "　　　∠FCD ＝ ∠FDC"
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "columns": "3fr 1fr",
+                        "gap": "1"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "よって，∠BCD ＝ ∠CDG"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "……③"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "さらに，CG に対する円周角は等しいから，"
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "columns": "3fr 1fr",
+                        "gap": "1"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "[__(b):120px:solid:sharp:fs1em:pad2px__]"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "……④"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "②，③，④より，"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "∠CAB ＝ ∠CAG － ∠BAG"
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "columns": "3fr 1fr",
+                        "gap": "1"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "　　　＝ ∠BAD － ∠BAG"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "……⑤"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "columns": "3fr 1fr",
+                        "gap": "1"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "∠GAD ＝ ∠BAD － ∠BAG"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "……⑥"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "⑤，⑥より，∠CAB ＝ ∠GAD"
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "columns": "3fr 1fr",
+                        "gap": "1"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "よって，∠CAE ＝ ∠GAD"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "……⑦"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "①，⑦より，2 組の角がそれぞれ等しいから，"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "　　　△ACE ∽ △AGD"
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "style": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "gap": "0.5rem",
+                    "paddingTop": "5"
+                  },
+                  "children": [
+                    {
+                      "type": "frame-box",
+                      "style": {
+                        "border": "1px solid #000",
+                        "padding": "0.5rem",
+                        "width": "70%"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "(a)の選択肢",
+                          "style": {
+                            "fontWeight": "bold"
+                          }
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "1. ∠ABC＝∠ADC"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "2. ∠AED＝∠BEC"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "3. ∠BAC＝∠BDC"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "4. ∠BAD＝∠BCD"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame-box",
+                      "style": {
+                        "border": "1px solid #000",
+                        "padding": "0.5rem",
+                        "width": "70%",
+                        "marginTop": "3"
+                      },
+                      "children": [
+                        {
+                          "type": "text-block",
+                          "content": "(b)の選択肢",
+                          "style": {
+                            "fontWeight": "bold"
+                          }
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "1. ∠AHD＝∠BHG"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "2. ∠BAG＝∠BDG"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "3. ∠CAG＝∠CDG"
+                        },
+                        {
+                          "type": "text-block",
+                          "content": "4. ∠DAG＝∠DBG"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q3-a-ii",
+          "style": {
+            "marginTop": "1.5rem"
+          },
+          "children": [
+            {
+              "type": "label",
+              "content": "(ii)"
+            },
+            {
+              "type": "text-block",
+              "content": "次の [ ] の中の「あ」「い」「う」にあてはまる数字をそれぞれ 0 ～ 9 の中から 1 つずつ選び，その数字を答えなさい。"
+            },
+            {
+              "type": "container",
+              "style": {
+                "marginTop": "0.5rem"
+              },
+              "children": [
+                {
+                  "type": "text-block",
+                  "content": "BC ＝ 4 cm，BG ＝ FG ＝ 2 cm のとき，三角形 ADH の面積は \\( \\dfrac{[あ]\\sqrt{[い]}}{[う]} \\) cm² である。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "writingMode": "horizontal-tb",
+  "isVertical": false,
+  "isVerticalAllowed": true
+}

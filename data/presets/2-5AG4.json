@@ -1,0 +1,202 @@
+{
+  "source": "HWG2",
+  "unit_id": "G2-U5",
+  "part_id": "AG4",
+  "part_title": "Active Grammar 4: 助動詞",
+  "type": "INTEGRATED_DATA",
+  "contents": {
+    "VOCABULARY": {
+      "page": 110,
+      "items": [
+        { "id": "G2_U5_AG4_W_01", "headword": "will", "pos": "助", "usage": "〔Will you ～? で〕", "meaning": "～してください、～してくれませんか。〔依頼〕" },
+        { "id": "G2_U5_AG4_W_02", "headword": "Would you ~ ?", "meaning": "～してください、～してくれませんか。" },
+        { "id": "G2_U5_AG4_W_03", "headword": "close", "pronunciation": "/klóuz/", "pos": "動", "meaning": "～を閉める" },
+        { "id": "G2_U5_AG4_W_04", "headword": "hunting", "pronunciation": "/hʌ́ntiŋ/", "pos": "名", "meaning": "探求、捜索" }
+      ]
+    },
+    "GRAMMAR": {
+      "page": "109-110",
+      "title": "助動詞（話し手の考えを動詞に加える言葉）",
+      "content_blocks": [
+        {
+          "type": "explanation_section",
+          "header": "場面と意味",
+          "text": "ストーリーをふりかえって、どんな場面で何を伝えていたかを思い出してみましょう。",
+          "items": [
+            { "tag": "Look Back", "en": "You must check the location of the evacuation shelters in advance.", "ja": "(避難所の位置を事前に確認しておかなきゃね。)", "note": "自然災害時にしなければならないことについて話し合っている場面。" }
+          ]
+        },
+        {
+          "type": "explanation_section",
+          "header": "文の形",
+          "text": "助動詞といっしょに使う動詞はいつも原形になります。"
+        },
+        {
+          "type": "auxiliary_list",
+          "header": "助動詞の働きと使い方の例",
+          "items": [
+            {
+              "tag": "can",
+              "label": "能力・可能",
+              "en": "I can read this kanji.",
+              "ja": "私はこの漢字が読めます。"
+            },
+            {
+              "tag": "can",
+              "label": "能力・可能",
+              "en": "I can't say this tongue twister.",
+              "ja": "私はこの早口言葉を言えません。"
+            },
+            {
+              "tag": "can",
+              "label": "依頼",
+              "en": "Can you come with me? — Of course.",
+              "ja": "私といっしょに来てくれますか。 ― もちろんです。",
+              "note": "Daily Life 1"
+            },
+            {
+              "tag": "can",
+              "label": "許可",
+              "en": "You can use this computer.",
+              "ja": "あなたはこのコンピュータを使ってもいいです。"
+            },
+            {
+              "tag": "can",
+              "label": "許可を求める",
+              "en": "Can I have melon juice? — Sure.",
+              "ja": "メロンジュースをいただけますか。 ― かしこまりました。",
+              "note": "Daily Life 4"
+            },
+            {
+              "tag": "can",
+              "label": "提案・申し出",
+              "en": "Can I call a teacher? — Yes, please.",
+              "ja": "先生を呼びましょうか？ ― はい、お願いします。",
+              "note": "Daily Life 6"
+            },
+            {
+              "tag": "will",
+              "label": "未来",
+              "en": "She'll meet him at the airport.",
+              "ja": "彼女は彼と空港で会うでしょう。",
+              "note": "Unit 3-2"
+            },
+            {
+              "tag": "will",
+              "label": "未来",
+              "en": "It will be a hot summer.",
+              "ja": "暑い夏になるでしょう。"
+            },
+            {
+              "tag": "will",
+              "label": "依頼",
+              "en": "Nick, will you clean your room? — Yes, Mom.",
+              "ja": "ニック、部屋を掃除してくれないかな。 ― はい、ママ。"
+            },
+            {
+              "tag": "may",
+              "label": "許可を求める",
+              "en": "May I ask you something? — Sure.",
+              "ja": "おたずねしてもいいですか。 ― もちろんです。",
+              "note": "Daily Life 5"
+            },
+            {
+              "tag": "shall",
+              "label": "申し出る",
+              "en": "Shall I take your order? — Yes, please.",
+              "ja": "ご注文を承りましょうか。 ― はい、お願いします。",
+              "note": "Daily Life 4"
+            },
+            {
+              "tag": "shall",
+              "label": "提案",
+              "en": "Shall we have lunch together? — Yes, let's.",
+              "ja": "いっしょに昼食をとりませんか。 ― はい、そうしましょう。"
+            },
+            {
+              "tag": "shall",
+              "label": "提案",
+              "en": "Shall we go hunting?",
+              "ja": "探求に行きましょうか。"
+            },
+            {
+              "tag": "could",
+              "label": "依頼 (ていねい)",
+              "en": "Could you tell me the way to the zoo? — Of course.",
+              "ja": "動物園への道を教えていただけますか。 ― もちろんです。",
+              "note": "Daily Life 5"
+            },
+            {
+              "tag": "would",
+              "label": "すすめる",
+              "en": "Would you like a drink? — Yes, please.",
+              "ja": "飲み物はいかがですか。 ― はい、お願いします。",
+              "note": "Daily Life 4"
+            },
+            {
+              "tag": "would",
+              "label": "依頼 (ていねい)",
+              "en": "Would you close the window? — Certainly.",
+              "ja": "窓を閉めてくださいませんか。 ― かしこまりました。"
+            },
+            {
+              "tag": "must",
+              "label": "義務",
+              "en": "You must check the weather information.",
+              "ja": "あなたは天気予報をチェックしないといけません。",
+              "note": "Unit 5-1"
+            },
+            {
+              "tag": "must",
+              "label": "禁止",
+              "en": "You must not leave home.",
+              "ja": "あなたは家から出てはいけません。",
+              "note": "Unit 5-1"
+            },
+            {
+              "tag": "should",
+              "label": "義務・助言",
+              "en": "I think you should take a rest.",
+              "ja": "休んだ方がいいと思います。",
+              "note": "Daily Life 6"
+            }
+          ]
+        },
+        {
+          "type": "grammar_hunt",
+          "header": "Grammar Hunt (p.110)",
+          "items": [
+            {
+              "id": "G2_U5_AG4_G_01",
+              "speaker": "Eri",
+              "en": "When we ==**can't**== stay home, we ==**can**== stay at schools or community centers.",
+              "ja": "(家にいられないとき、学校やコミュニティーセンターで過ごせるんだよ。)",
+              "note": "能力・可能を表す can"
+            }
+          ]
+        }
+      ]
+    },
+    "TEXT": {
+      "page": 110,
+      "content_blocks": [
+        {
+          "type": "speak_section",
+          "header": "About You: 防災に関する考えを Hajin に伝えよう",
+          "items": [
+            { "id": "G2_U5_AG4_S_01", "en": "Can you tell me your ideas for safety?", "ja": "安全について、あなたの考えを教えてくれませんか。" },
+            { "id": "G2_U5_AG4_S_02", "speaker": "Hajin", "en": "I learned that it's important to know evacuation sites.", "ja": "私は避難場所を知ることが重要だと学びました。" },
+            { "id": "G2_U5_AG4_S_03", "speaker": "Hajin", "en": "If we don't know the sites, we won't be able to evacuate quickly when we have to.", "ja": "避難場所を知らなければ、私たちは必要なときに素早く避難することができないでしょう。" },
+            { "id": "G2_U5_AG4_S_04", "speaker": "Hajin", "en": "My family still doesn't know much about our city, so I'll share information about the evacuation site with them this evening.", "ja": "私の家族はまだこの町のことを知らないので、今晩、避難場所についての情報を彼らと共有するつもりです。" },
+            { "id": "G2_U5_AG4_S_05", "speaker": "Hajin", "en": "We should also plan several evacuation routes.", "ja": "私たちは避難経路もいくつか計画しておくべきです。" },
+            { "id": "G2_U5_AG4_S_06", "speaker": "Hajin", "en": "We need to prepare for situations like fires and floods.", "ja": "私たちは火事や洪水のような状況に備える必要があります。" },
+            { "id": "G2_U5_AG4_S_07", "speaker": "Hajin", "en": "What other things are important? Can you tell me your ideas for safety?", "ja": "ほかに大切なことは何ですか？ 安全について、あなたの考えを教えてくれませんか。" },
+            { "id": "G2_U5_AG4_S_08", "tag": "解答例", "en": "I think it is important to have an emergency bag.", "ja": "私は防災バッグを用意することが大事だと思います。" },
+            { "id": "G2_U5_AG4_S_09", "tag": "解答例", "en": "It is necessary make a checklist and sometimes check the contents of the bag.", "ja": "チェックリストを作り、ときどき中身を確認する必要があります。" },
+            { "id": "G2_U5_AG4_S_10", "tag": "解答例", "en": "You should talk about an emergency bag with your family first.", "ja": "まず、家族と防災バッグについて話すべきです。" }
+          ]
+        }
+      ]
+    }
+  }
+}

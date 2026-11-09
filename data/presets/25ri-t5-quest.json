@@ -1,0 +1,939 @@
+{
+  "year": 2025,
+  "prefecture": "Kanagawa",
+  "subject": "Science",
+  "source": "question",
+  "children": [
+    {
+      "type": "title",
+      "content": "問 ５",
+      "style": {
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "type": "text-block",
+      "content": "Ｋさんは，小球の運動について調べるために，次のような実験を行った。これらの実験とその結果について，あとの各問いに答えなさい。ただし，小球はコースに接したまま運動するものとし，小球にはたらく摩擦や空気の抵抗は考えないものとする。"
+    },
+    {
+      "type": "container",
+      "id": "q5-experiment-container",
+      "style": {
+        "marginTop": "1rem"
+      },
+      "children": [
+        {
+          "type": "container",
+          "id": "q5-exp1",
+          "children": [
+            {
+              "type": "label",
+              "content": "〔実験 1 〕"
+            },
+            {
+              "type": "grid-box",
+              "style": {
+                "display": "grid",
+                "gap": "1"
+              },
+              "children": [
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gap": "3",
+                    "columns": "1fr 280px"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "図 1 と図 2 のように，斜面と水平面を組み合わせて，斜面の角度が小さいコース 1 と角度が大きいコース 2 を作り，水平な机の上に固定した。\nそれぞれのコースの左端の点Ａと点Ｂは，水平面からの高さが等しい。\nなお，図 3 のように，それぞれのコースには目盛りがついており，コースの左端の点を 0cm として小球の位置を測定することができる。\n\n\nまず，コース 1 の点Ａに小球を置き，静かに手をはなした後，1 秒あたり 10 回，同じ時間間隔で小球を撮影した。\n撮影した画像から，撮影 1 回ごとの小球の位置を読みとり，撮影から次の撮影までの移動距離および平均の速さを求めた。\n次に，コース 2 の点Ｂに小球を置き，静かに手をはなした後の小球の運動を同様に調べた。\n表 1 は，コース 1 の結果をまとめている途中のものである。"
+                    },
+                    {
+                      "type": "grid-box",
+                      "style": {
+                        "display": "grid",
+                        "gap": "1",
+                        "marginTop": "-1"
+                      },
+                      "children": [
+                        {
+                          "type": "grid-box",
+                          "style": {
+                            "display": "grid"
+                          },
+                          "children": [
+                            {
+                              "type": "image-block",
+                              "content": "images/sc-images/25sc_q5_fig1.png"
+                            },
+                            {
+                              "type": "text-block",
+                              "content": "図1　コース1"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "grid-box",
+                          "style": {
+                            "display": "grid",
+                            "gap": "1"
+                          },
+                          "children": [
+                            {
+                              "type": "image-block",
+                              "content": "images/sc-images/25sc_q5_fig2.png",
+                              "style": {
+                                "width": "80%",
+                                "marginLeft": "2"
+                              }
+                            },
+                            {
+                              "type": "text-block",
+                              "content": "図2　コース2",
+                              "style": {
+                                "marginTop": "-1"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "grid-box",
+                          "style": {
+                            "display": "grid",
+                            "gap": "1"
+                          },
+                          "children": [
+                            {
+                              "type": "image-block",
+                              "content": "images/sc-images/25sc_q5_fig3.png",
+                              "style": {
+                                "width": "50%",
+                                "marginLeft": "4"
+                              }
+                            },
+                            {
+                              "type": "title",
+                              "content": "図 3",
+                              "style": {
+                                "fontSize": "0.75rem",
+                                "textAlign": "center",
+                                "marginTop": "-1"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "style": {
+                "marginTop": "1rem"
+              },
+              "children": [
+                {
+                  "type": "title",
+                  "content": "表 1 コース 1 の結果",
+                  "style": {
+                    "fontSize": "0.75rem"
+                  }
+                },
+                {
+                  "type": "grid-table",
+                  "style": {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(26, 1fr)",
+                    "marginTop": "0rem",
+                    "border": "1px solid #1e293b",
+                    "innerBorder": true,
+                    "innerBorderColor": "#1e293b",
+                    "fontSize": "0.75rem"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "撮影回数〔回目〕",
+                      "style": {
+                        "gridColumn": "1 / 5"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "1",
+                      "style": {
+                        "gridColumn": "5 / 7",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "2",
+                      "style": {
+                        "gridColumn": "7 / 9",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "3",
+                      "style": {
+                        "gridColumn": "9 / 11",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "4",
+                      "style": {
+                        "gridColumn": "11 / 13",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "5",
+                      "style": {
+                        "gridColumn": "13 / 15",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "6",
+                      "style": {
+                        "gridColumn": "15 / 17",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "7",
+                      "style": {
+                        "gridColumn": "17 / 19",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "8",
+                      "style": {
+                        "gridColumn": "19 / 21",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "9",
+                      "style": {
+                        "gridColumn": "21 / 23",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "10",
+                      "style": {
+                        "gridColumn": "23 / 25",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "11",
+                      "style": {
+                        "gridColumn": "25 / 27",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "小球の位置〔cm〕",
+                      "style": {
+                        "gridColumn": "1 / 5"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "1.8",
+                      "style": {
+                        "gridColumn": "5 / 7",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "7.2",
+                      "style": {
+                        "gridColumn": "7 / 9",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "16.2",
+                      "style": {
+                        "gridColumn": "9 / 11",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "28.8",
+                      "style": {
+                        "gridColumn": "11 / 13",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "45.0",
+                      "style": {
+                        "gridColumn": "13 / 15",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "64.8",
+                      "style": {
+                        "gridColumn": "15 / 17",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "88.2",
+                      "style": {
+                        "gridColumn": "17 / 19",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "114.6",
+                      "style": {
+                        "gridColumn": "19 / 21",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "141.3",
+                      "style": {
+                        "gridColumn": "21 / 23",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "168.0",
+                      "style": {
+                        "gridColumn": "23 / 25",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "194.7",
+                      "style": {
+                        "gridColumn": "25 / 27",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "移動距離〔cm〕",
+                      "style": {
+                        "gridColumn": "1 / 6"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "5.4",
+                      "style": {
+                        "gridColumn": "6 / 8",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "9.0",
+                      "style": {
+                        "gridColumn": "8 / 10",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "12.6",
+                      "style": {
+                        "gridColumn": "10 / 12",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "16.2",
+                      "style": {
+                        "gridColumn": "12 / 14",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "19.8",
+                      "style": {
+                        "gridColumn": "14 / 16",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "23.4",
+                      "style": {
+                        "gridColumn": "16 / 18",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "26.4",
+                      "style": {
+                        "gridColumn": "18 / 20",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "26.7",
+                      "style": {
+                        "gridColumn": "20 / 22",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "26.7",
+                      "style": {
+                        "gridColumn": "22 / 24",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "26.7",
+                      "style": {
+                        "gridColumn": "24 / 26",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "26 / 27",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "平均の速さ〔cm/s〕",
+                      "style": {
+                        "gridColumn": "1 / 6"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "6 / 8",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "8 / 10",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "10 / 12",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "12 / 14",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "14 / 16",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "16 / 18",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "18 / 20",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "20 / 22",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "22 / 24",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "24 / 26",
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "",
+                      "style": {
+                        "gridColumn": "26 / 27",
+                        "textAlign": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q5-exp2",
+          "style": {
+            "marginTop": "2rem"
+          },
+          "children": [
+            {
+              "type": "label",
+              "content": "〔実験 2 〕"
+            },
+            {
+              "type": "text-block",
+              "content": "斜面と水平面の他に，曲面も自由に組み合わせて新たに複数のコースを作り，〔実験 1 〕と同様の実験を行った。表 2 は，それらのコースのうちコース 3 について，左端の点 C から運動を始めた小球が，コース 3 上の点Ｄ，点Ｅを通過したのち，右端の点Ｆに達するまでの小球の速さの変化のようすを，コース 3 の区間ごとにまとめたものである。"
+            },
+            {
+              "type": "table",
+              "style": {
+                "width": "100%",
+                "borderCollapse": "collapse",
+                "textAlign": "left",
+                "marginTop": "0.5rem",
+                "columnWidths": "1fr 3.6fr",
+                "cellPadding": "0.2rem 0.5rem"
+              },
+              "content": {
+                "cells": [
+                  [
+                    {
+                      "content": "コース 3 の区間",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    },
+                    {
+                      "content": "小球の速さの変化のようす",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "content": "CD 間",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    },
+                    {
+                      "content": "速さが時間とともに増加した。増加する割合は，時間とともに小さくなった。",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "content": "DE 間",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    },
+                    {
+                      "content": "速さが時間とともに増加した。増加する割合は，一定であった。",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "content": "EF 間",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    },
+                    {
+                      "content": "速さが時間とともに増加した。増加する割合は，時間とともに大きくなった。",
+                      "style": {
+                        "border": "1px solid #000"
+                      }
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "q5-questions",
+          "style": {
+            "marginTop": "2rem"
+          },
+          "children": [
+            {
+              "type": "container",
+              "children": [
+                {
+                  "type": "label",
+                  "content": "(ア)"
+                },
+                {
+                  "type": "text-block",
+                  "content": "〔実験 1 〕において小球がコース 1 の斜面を運動しているときの，小球にはたらく力についての説明として最も適するものを次の中から一つ選び，その番号を答えなさい。"
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gridTemplateColumns": "1fr",
+                    "gap": "0.3rem",
+                    "marginTop": "0.5rem"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "1. 小球の運動の向きにはたらく力の大きさは，時間とともに大きくなる。"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "2. 重力と垂直抗力の合力の大きさは，0 Ｎである。"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "3. 重力の斜面に平行な分力と，斜面に垂直な分力は，同じ大きさである。"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "4. 重力の斜面に垂直な分力は，垂直抗力とつり合っている。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "style": {
+                "marginTop": "1rem"
+              },
+              "children": [
+                {
+                  "type": "label",
+                  "content": "(イ)"
+                },
+                {
+                  "type": "text-block",
+                  "content": "〔実験 1 〕において小球がコース 1 を運動しているとき，3 回目の撮影から 4 回目の撮影までの小球の平均の速さとして最も適するものを次の中から一つ選び，その番号を答えなさい。"
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(6, 1fr)",
+                    "marginTop": "0.5rem"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "1. 3.6 cm/s"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "2. 9.0 cm/s"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "3. 12.6 cm/s"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "4. 36 cm/s"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "5. 90 cm/s"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "6. 126 cm/s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "style": {
+                "marginTop": "1rem"
+              },
+              "children": [
+                {
+                  "type": "label",
+                  "content": "(ウ)"
+                },
+                {
+                  "type": "text-block",
+                  "content": "表 1 から，コース 1 の斜面を運動する小球が水平面に達したのは，何回目と何回目の撮影の間と考えられるか。最も適するものを次の中から一つ選び，その番号を答えなさい。"
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(4, 1fr)",
+                    "marginTop": "0.5rem"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "1. 5回目と6回目の間"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "2. 6回目と7回目の間"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "3. 7回目と8回目の間"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "4. 8回目と9回目の間"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "style": {
+                "marginTop": "1rem"
+              },
+              "children": [
+                {
+                  "type": "label",
+                  "content": "(エ)"
+                },
+                {
+                  "type": "text-block",
+                  "content": "〔実験 1 〕において，コース 2 における次の(i)，(ii)は，コース 1 のときと比べてどのようになるか。最も適するものをあとの 1 ～ 3 の中からそれぞれ一つずつ選び，その番号を答えなさい。\n(i) 小球が斜面を運動するときの，小球の速さが時間とともに増加する割合\n(ii) 小球が水平面を運動するときの速さ",
+                  "style": {
+                    "whiteSpace": "pre-line"
+                  }
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(3, 1fr)",
+                    "marginTop": "0.5rem"
+                  },
+                  "children": [
+                    {
+                      "type": "text-block",
+                      "content": "1. 大きくなる"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "2. 小さくなる"
+                    },
+                    {
+                      "type": "text-block",
+                      "content": "3. 同じになる"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "style": {
+                "marginTop": "1rem"
+              },
+              "children": [
+                {
+                  "type": "label",
+                  "content": "(オ)"
+                },
+                {
+                  "type": "text-block",
+                  "content": "次の 1 ～ 6 は，〔実験 2 〕で作った複数のコースを真横から見て示したものである。表 2 から，コース 3 を示す図として最も適するものを 1 ～ 6 の中から一つ選び，その番号を答えなさい。"
+                },
+                {
+                  "type": "grid-box",
+                  "style": {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(3, 1fr)",
+                    "gap": "1rem",
+                    "marginTop": "0.5rem"
+                  },
+                  "children": [
+                    {
+                      "type": "container",
+                      "children": [
+                        {
+                          "type": "label",
+                          "content": "1."
+                        },
+                        {
+                          "type": "image-block",
+                          "content": "images/sc-images/25sc_q5_o_opt1.png",
+                          "style": {
+                            "width": "85%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "children": [
+                        {
+                          "type": "label",
+                          "content": "2."
+                        },
+                        {
+                          "type": "image-block",
+                          "content": "images/sc-images/25sc_q5_o_opt2.png",
+                          "style": {
+                            "width": "85%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "children": [
+                        {
+                          "type": "label",
+                          "content": "3."
+                        },
+                        {
+                          "type": "image-block",
+                          "content": "images/sc-images/25sc_q5_o_opt3.png",
+                          "style": {
+                            "width": "85%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "children": [
+                        {
+                          "type": "label",
+                          "content": "4."
+                        },
+                        {
+                          "type": "image-block",
+                          "content": "images/sc-images/25sc_q5_o_opt4.png",
+                          "style": {
+                            "width": "85%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "children": [
+                        {
+                          "type": "label",
+                          "content": "5."
+                        },
+                        {
+                          "type": "image-block",
+                          "content": "images/sc-images/25sc_q5_o_opt5.png",
+                          "style": {
+                            "width": "85%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "container",
+                      "children": [
+                        {
+                          "type": "label",
+                          "content": "6."
+                        },
+                        {
+                          "type": "image-block",
+                          "content": "images/sc-images/25sc_q5_o_opt6.png",
+                          "style": {
+                            "width": "85%"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
